@@ -1,0 +1,62 @@
+/* Styles for the container */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 500px; 
+    flex-direction: column; 
+}
+
+/* Styles for the navbar */
+.nv-bar {
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+table {
+    border-collapse: collapse; /* Joins table rows more close together */
+}
+
+th, tr {
+    border: 1px solid #dddd;
+    padding: 12px;
+}
+
+/* Style for the row */
+tr.main-el {
+    background-color: #f2f2f2; 
+    border-bottom: 2px solid #ccc; 
+    text-align: left; 
+}
+
+/* Style for the header cells */
+tr.main-el th {
+    padding: 10px; 
+    font-size: 18px; 
+    color: #333; 
+    background-color: #e0e0e0; 
+    border: 1px solid #aaaa; 
+}
+
+/* Default button style */
+button {
+    background-color: #ffcccc; 
+    color: #333; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 12px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+.btn {
+    color: white;
+    background-color: grey;
+    border-radius: 9px;
+}
+
